@@ -29,11 +29,12 @@ header a:hover{
 main{
     margin: auto;
     display: inline;
+    height: 100%;
 }
 main article{
     padding-top: 120px;
-    max-width: 1200px;
-    height: 600px;
+    max-width: 1600px;
+    
     background-color: rgba(32, 32, 32, 0.203);
 }
 main article section{
@@ -45,7 +46,8 @@ main article section{
     box-shadow: 3px 3px 6px black;
 }
 section li{
-    margin: 5px;
+    font-size: 24px;
+    margin: 10px;
 }
 main article h2{
     color: white;
@@ -90,6 +92,23 @@ footer{
 p img{
     border: solid 3px rgba(0, 0, 0, 0.776);
     border-radius: 50%;
-    width: 200px;
+    max-width: 400px;
     box-shadow:2px 2px 4px rgba(0, 0, 0, 0.235);
+}
+.foto {
+    margin: auto;
+    text-align: center;
+    
+}
+.foto img{
+    display: inline;
+    border-radius: 50%;
+    margin: 40px;
+    width: 400px;
+}
+footer h4{
+    display: inline;
+}
+#home{
+    font-size: 28px;
 }
