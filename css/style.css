@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+    margin: 0%;
+}
+header{
+    padding: 35px;
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+}
+header h1{
+    color: white;
+    font-size: 3.5em;
+    margin: 0%;
+    margin-bottom: 10px;
+}
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 4px;
+}
+header a:hover{
+    color: red;
+    text-decoration: solid;
+}
+main{
+    text-align: center;
+    background: url(../fotos/fundo-barbearia.png) scroll center bottom;
+}
+main article{
+    margin: auto;
+    max-width: 1200px;
+    height: 600px;
+    background-color: rgba(32, 32, 32, 0.903);
+}
+main article h2{
+    margin: 0%;
+}
+main article p{
+    margin: auto;
+    padding: 40px;
+    max-width: 800px;
+    background-color: white;
+}
