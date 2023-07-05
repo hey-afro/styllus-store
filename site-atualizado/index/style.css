@@ -1,0 +1,69 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** começo do site **/
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+}
+header h1{
+    color: white;
+    font-variant: small-caps;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+}
+header a{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+header li{
+    font-size: 28px;
+}
+
+/** parte informativa **/
+
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+    background-color: brown;
+    height: 80vh;
+}
+.litllebox{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 30px;
+    background-color: aquamarine;
+    margin: auto;
+    width: 900px; 
+    height: 300px;
+    text-align: center;
+}
+.litllebox h1{
+    margin: 0%;
+   
+}
+.mini ul{
+    list-style: none;
+    columns: 2;
+}
