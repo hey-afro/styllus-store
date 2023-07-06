@@ -46,24 +46,49 @@ header li{
     flex-flow: row wrap;
     align-content: center;
     justify-content: space-around;
-    background-color: brown;
+    background-image: url(istockphoto-1320646994-612x612.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
     height: 80vh;
 }
 .litllebox{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     padding: 30px;
-    background-color: aquamarine;
+    background-color: rgba(3, 3, 3, 0.664);
     margin: auto;
     width: 900px; 
-    height: 300px;
+    min-height: 300px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.185);
 }
 .litllebox h1{
     margin: 0%;
+    text-decoration: underline rgb(206, 206, 206);
    
+}
+.mini{
+    height: 100%;
 }
 .mini ul{
     list-style: none;
     columns: 2;
+    
+}
+.mini li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(128, 128, 128);
+    padding: 8px;
+}
+.litllebox p{
+    font-size: 27px;
+}
+.litllebox a{
+    margin: auto;
+    width: 50px;
+    height: 50px;
 }
