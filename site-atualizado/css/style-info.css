@@ -1,0 +1,99 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* começo do site */
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+}
+header h1{
+    color: white;
+    font-variant: small-caps;
+    font-size: 2,8em;
+    display: flex;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+}
+header a{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+header li{
+    font-size: 24px;
+}
+
+/* parte central */
+
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../fotos/istockphoto-1320646994-612x612.jpg);
+    background-size: contain;
+    background-position: center center;
+}
+section{
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    padding: 15px;
+    background-color: rgba(253, 253, 253, 0.452);
+    border-radius: 5px;
+}
+.primeiro{ 
+    display: flex;
+    align-items: center;
+}
+.primeiro iframe{
+    border:inset 10px rgba(0, 0, 0, 0.452) ;
+    border-radius: 10px;
+}
+.primeiro ul{
+    list-style: none;
+    padding: 10px;
+}
+.primeiro li{
+    padding: 5px;
+}
+.primeiro a{
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+.primeiro a:hover{
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.segundo{ 
+    text-align: center;
+}
+.segundo p{
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 22px;
+}
+.segundo ul{
+    list-style: none;
+}
+.segundo li{
+    color: rgba(0, 0, 0, 0.61);
+    padding: 5px;
+    font-size: 22px;
+}

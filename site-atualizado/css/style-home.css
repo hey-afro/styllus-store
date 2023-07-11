@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/** começo do site **/
+/* começo do site */
 
 header{
     display: flex;
@@ -17,7 +17,7 @@ header{
 header h1{
     color: white;
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 2,8em;
     display: flex;
     align-items: center;
 }
@@ -36,17 +36,17 @@ header a:hover{
     color: rgb(255, 255, 255);
 }
 header li{
-    font-size: 28px;
+    font-size: 24px;
 }
 
-/** parte informativa **/
+/* parte informativa */
 
 .box{
     display: flex;
     flex-flow: row wrap;
     align-content: center;
     justify-content: space-around;
-    background-image: url(istockphoto-1320646994-612x612.jpg);
+    background-image: url(../fotos/istockphoto-1320646994-612x612.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
@@ -63,11 +63,12 @@ header li{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.185);
 }
 .litllebox h1{
     margin: 0%;
+    font-size: 2em;
     text-decoration: underline rgb(206, 206, 206);
    
 }
