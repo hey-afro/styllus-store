@@ -46,7 +46,7 @@ header li{
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: center;
     background-image: url(../fotos/istockphoto-1320646994-612x612.jpg);
     background-size: contain;
     background-position: center;
@@ -71,7 +71,6 @@ header li{
     margin: 0%;
     font-size: 2em;
     text-decoration: underline rgb(206, 206, 206);
-   
 }
 .mini{
     height: 100%;
@@ -79,7 +78,6 @@ header li{
 .mini ul{
     list-style: none;
     columns: 2;
-    
 }
 .mini li{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
