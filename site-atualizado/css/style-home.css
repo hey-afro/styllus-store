@@ -78,7 +78,9 @@ header li{
 }
 .mini ul{
     list-style: none;
+    text-align: center;
     columns: 2;
+    padding-left: 0px;
 }
 .mini li{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
