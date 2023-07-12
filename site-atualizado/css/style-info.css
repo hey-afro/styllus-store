@@ -74,12 +74,16 @@ section{
     padding: 5px;
 }
 .primeiro a{
+    font-family:  ;
+    padding: 4px;
     color: rgb(54, 54, 54);
     text-decoration: none;
+    border-radius: 10px;
 }
 .primeiro a:hover{
+    
     color: rgb(0, 0, 0);
-    font-size: large;
+    border-radius: 10px;
 }
 
 .segundo{ 
