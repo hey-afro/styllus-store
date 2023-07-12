@@ -1,7 +1,7 @@
 body{
     padding: 0%;
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* começo do site */
@@ -15,7 +15,7 @@ header{
     background-color: rgb(0, 0, 0);
 }
 header h1{
-    color: white;
+    color: rgb(121, 92, 0);
     font-variant: small-caps;
     font-size: 2,8em;
     display: flex;
@@ -29,7 +29,7 @@ header ul{
     list-style: none;
 }
 header a{
-    color: rgb(73, 73, 73);
+    color: rgb(139, 107, 0);
     text-decoration: none;
 }
 header a:hover{
@@ -42,29 +42,37 @@ header li{
 /* parte central */
 
 main{
-    height: 80vh;
+    min-width: 100%;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-content: center;
     background-image: url(../fotos/istockphoto-1320646994-612x612.jpg);
-    background-size: contain;
+    background-size: 600px contain;
     background-position: center center;
 }
 section{
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
-    width: 1200px;
+    justify-content: center;
+    max-width: 1200px;
+    min-width: 300px;
     padding: 15px;
-    background-color: rgba(253, 253, 253, 0.452);
+    background-color: rgba(253, 253, 253, 0.568);
     border-radius: 5px;
+    box-shadow: 3px 5px 6px rgba(121, 93, 0, 0.404);
 }
 .primeiro{ 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 .primeiro iframe{
-    border:inset 10px rgba(0, 0, 0, 0.452) ;
+    border:inset 10px rgb(146, 112, 0) ;
     border-radius: 10px;
+    box-shadow:  2px 3px 3px rgba(51, 51, 51, 0.349);
 }
 .primeiro ul{
     list-style: none;
@@ -74,20 +82,25 @@ section{
     padding: 5px;
 }
 .primeiro a{
-    font-family:  ;
     padding: 4px;
-    color: rgb(54, 54, 54);
+    color: rgb(121, 92, 0);
     text-decoration: none;
     border-radius: 10px;
 }
 .primeiro a:hover{
-    
+    font-size: 28px;
     color: rgb(0, 0, 0);
     border-radius: 10px;
 }
 
 .segundo{ 
     text-align: center;
+    line-height: 30px;
+    font-size: large;
+}
+.segundo h1,h2{
+    color: rgb(121, 92, 0);
+    letter-spacing: 5px;
 }
 .segundo p{
     color: rgba(0, 0, 0, 0.61);
