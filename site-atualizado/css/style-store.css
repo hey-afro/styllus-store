@@ -106,7 +106,7 @@ header li{
     width: 250px;
     height: 150px;
     margin: 10px;
-    border: solid 3px rgb(68, 0, 0);
+    border: solid 2px rgba(68, 0, 0, 0.466);
 }
 .litllebox p{
     font-size: 27px;
