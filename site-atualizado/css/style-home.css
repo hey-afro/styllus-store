@@ -91,6 +91,10 @@ header li{
     font-size: 27px;
     margin: 10px;
 }
+.litllebox #ps{
+    color: rgb(107, 82, 0);
+    font-size: 20px;
+}
 .litllebox a{
     margin: auto;
     width: 50px;
