@@ -60,8 +60,7 @@ header li{
     padding: 30px;
     background-color: rgba(3, 3, 3, 0.664);
     margin: auto;
-    max-width: 900px;
-    min-width: 300px; 
+    width: 1100px;
     min-height: 300px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,6 +68,14 @@ header li{
     font-size: 22px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.185);
 }
+@media (max-width:700px)
+    {
+        .litllebox{
+            min-width: 300px;
+        }
+    }
+
+
 .litllebox h1{
     margin: 0%;
     font-size: 2em;
@@ -85,16 +92,16 @@ header li{
 }
 .mini li{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(128, 128, 128);
+    color: rgb(197, 197, 197);
     padding: 8px;
 }
 .litllebox p{
-    font-size: 27px;
+    font-size: 18px;
     margin: 10px;
 }
 .litllebox #ps{
-    color: rgb(107, 82, 0);
-    font-size: 20px;
+    color: rgba(134, 103, 0, 0.692);
+    font-size: 14px;
 }
 .litllebox a{
     margin: auto;
