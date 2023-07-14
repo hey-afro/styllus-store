@@ -52,6 +52,7 @@ header li{
     background-position: center;
     background-repeat: repeat;
     min-height: 80vh;
+    padding: 50px;
 }
 .litllebox{
     display: flex;
@@ -64,19 +65,24 @@ header li{
     min-height: 300px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0,5px;
     color:rgb(121, 92, 0);
     font-size: 22px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.185);
 }
 .litllebox h1{
     margin: 0%;
-    font-size: 2em;
-    text-decoration: underline rgb(206, 206, 206);
+    color: rgb(121, 92, 0);
+    font-variant: small-caps;
+    font-size: 2,4em;
+    text-decoration: underline rgba(206, 206, 206, 0.438);
+    font-family: 'Times New Roman', Times, serif;
 }
 .litllebox h2{
     text-align: start;
-    color: rgb(180, 138, 0);
+    color: rgb(121, 92, 0);
+    font-variant: small-caps;
+    font-size: 2,8em;
+    font-family: 'Times New Roman', Times, serif;
 }
 .mini{
     display: flex;
@@ -96,10 +102,11 @@ header li{
     padding: 8px;
 }
 .card{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(92, 92, 92);
     width: 250px;
     height: 150px;
     margin: 10px;
+    border: solid 3px rgb(68, 0, 0);
 }
 .litllebox p{
     font-size: 27px;

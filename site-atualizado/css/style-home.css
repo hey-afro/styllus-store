@@ -52,6 +52,7 @@ header li{
     background-position: center;
     background-repeat: repeat;
     min-height: 80vh;
+    padding: 50px;
 }
 .litllebox{
     display: flex;

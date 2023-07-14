@@ -44,21 +44,23 @@ header li{
 main{
     min-width: 100%;
     min-height: 80vh;
+    padding: 50px 0px;
     display: flex;
     justify-content: center;
     align-content: center;
     background-image: url(../fotos/istockphoto-1320646994-612x612.jpg);
-    background-size: 600px contain;
+    background-size: 100% contain;
     background-position: center center;
 }
 section{
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0px;
     justify-content: center;
     max-width: 1200px;
     min-width: 300px;
     padding: 15px;
+    padding-top: 30px;
     background-color: rgba(253, 253, 253, 0.568);
     border-radius: 5px;
     box-shadow: 3px 5px 6px rgba(121, 93, 0, 0.404);
