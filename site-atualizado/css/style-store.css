@@ -8,26 +8,28 @@ body{
 
 header{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 20vh;
     background-color: rgb(0, 0, 0);
 }
 header h1{
-    color: rgb(121, 92, 0);
+    color: rgb(228, 175, 0);
     font-variant: small-caps;
-    font-size: 2,8em;
+    font-size: 3em;
     letter-spacing: 0,5px;
-    display: flex;
-    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 2px 2px 2px rgba(189, 154, 0, 0.678);
 }
 header nav{
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 header ul{
+    text-align: center;
     list-style: none;
+    padding: 0%;
 }
 header a{
     color: rgb(161, 124, 0);

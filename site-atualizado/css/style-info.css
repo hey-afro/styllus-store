@@ -8,28 +8,31 @@ body{
 
 header{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 20vh;
     background-color: rgb(0, 0, 0);
 }
 header h1{
-    color: rgb(121, 92, 0);
+    color: rgb(228, 175, 0);
     font-variant: small-caps;
-    font-size: 2,8em;
-    display: flex;
-    align-items: center;
+    font-size: 3em;
+    letter-spacing: 0,5px;
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 2px 2px 2px rgba(189, 154, 0, 0.678);
 }
 header nav{
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 header ul{
+    text-align: center;
     list-style: none;
+    padding: 0%;
 }
 header a{
-    color: rgb(139, 107, 0);
+    color: rgb(161, 124, 0);
     text-decoration: none;
 }
 header a:hover{
@@ -54,60 +57,72 @@ main{
 }
 section{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     margin: 0px;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 800px;
     min-width: 300px;
-    padding: 15px;
+    padding: 25px;
     padding-top: 30px;
-    background-color: rgba(253, 253, 253, 0.568);
-    border-radius: 5px;
+    background-color: rgba(117, 117, 117, 0.568);
+    border-radius: 20px;
     box-shadow: 3px 5px 6px rgba(121, 93, 0, 0.404);
+    line-height: 45px;
+    letter-spacing: 3px;
 }
 .primeiro{ 
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 }
 .primeiro iframe{
-    border:inset 10px rgba(146, 112, 0, 0.568) ;
+    border:inset 2px rgba(146, 112, 0, 0.568) ;
+    width: 400px;
+    height: 500px;
     border-radius: 10px;
     box-shadow:  2px 3px 3px rgba(51, 51, 51, 0.349);
-
+}
+@media (max-width:700px) {
+    .primeiro iframe{
+    min-width: 300px;
+    min-height: 500px;
+    }
 }
 .primeiro ul{
     list-style: none;
     padding: 10px;
+    text-align: center;
 }
 .primeiro li{
     padding: 5px;
 }
 .primeiro a{
+    font-size: 30px;
     padding: 4px;
-    color: rgb(121, 92, 0);
+    color: rgb(231, 177, 0);
     text-decoration: none;
     border-radius: 10px;
 }
 .primeiro a:hover{
-    font-size: 28px;
-    color: rgb(0, 0, 0);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
 .segundo{ 
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     font-size: large;
 }
 .segundo h1,h2{
-    color: rgb(121, 92, 0);
+    color: rgb(211, 162, 0);
     letter-spacing: 5px;
 }
 .segundo p{
     color: rgba(0, 0, 0, 0.61);
-    font-size: 22px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .segundo ul{
     list-style: none;
@@ -116,5 +131,6 @@ section{
 .segundo li{
     color: rgba(0, 0, 0, 0.61);
     padding: 5px;
-    font-size: 22px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
 }
