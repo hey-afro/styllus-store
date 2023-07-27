@@ -11,7 +11,8 @@ header{
     flex-flow: column wrap;
     align-content: center;
     justify-content: center;
-    height: 20vh;
+    min-height: 20vh;
+    max-height: 40vh;
     background-color: rgb(0, 0, 0);
 }
 header h1{
@@ -54,6 +55,7 @@ header li{
     background-position: center;
     background-repeat: repeat;
     min-height: 80vh;
+    max-height: 140vh;
     padding: 0px 100px;
 }
 .litllebox{

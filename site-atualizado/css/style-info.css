@@ -85,7 +85,7 @@ section{
 }
 @media (max-width:700px) {
     .primeiro iframe{
-    min-width: 300px;
+    width: 300px;
     min-height: 500px;
     }
 }
