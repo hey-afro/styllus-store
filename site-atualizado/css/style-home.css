@@ -46,7 +46,8 @@ header li{
 /* parte informativa */
 
 .box{
-    min-height: 80vh;
+    min-height: 1300px;
+    max-height: 1600px;
     padding: 0px 0px;
     display: flex;
     justify-content: center;
