@@ -16,7 +16,7 @@ header{
     background-color: rgb(0, 0, 0);
 }
 header h1{
-    color: rgb(228, 175, 0);
+    color: rgb(153, 153, 153);
     font-variant: small-caps;
     font-size: 3em;
     letter-spacing: 0,5px;
@@ -33,11 +33,11 @@ header ul{
     padding: 0%;
 }
 header a{
-    color: rgb(161, 124, 0);
+    color: rgb(153, 153, 153);
     text-decoration: none;
 }
 header a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(196, 166, 0);
 }
 header li{
     font-size: 24px;
@@ -46,16 +46,17 @@ header li{
 /* parte informativa */
 
 .box{
+    min-width: 100%;
+    min-height: 80vh;
+    padding: 0px 0px;
     display: flex;
-    flex-flow: row wrap;
-    align-content: center;
     justify-content: center;
+    align-content: center;
     background-image: url(../fotos/istockphoto-1320646994-612x612.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: repeat;
-    height: 160vh;
-    padding: 40px 100px;
+    background-size: auto;
+    background-repeat: repeat ;
+    text-align: center;
+    background-position: center center ;
 }
 .litllebox{
     display: flex;
@@ -63,11 +64,11 @@ header li{
     padding: 30px;
     background-color: rgba(75, 75, 75, 0.568);
     margin: auto;
-    width: 1100px;
+    max-width: 500px;
     height: 800px;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgb(206, 158, 0);
+    color:rgb(0, 0, 0);
     font-size: 22px;
     border-radius: 20px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.185);
@@ -84,9 +85,13 @@ header li{
 
 
 .litllebox h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
     margin: 0%;
     font-size: 2em;
-    text-decoration: underline rgb(206, 206, 206);
+    letter-spacing: 2px;
+    color: rgb(58, 26, 0);
+    text-shadow: 2px 2px 5px  rgba(255, 255, 255, 0.178);
 }
 .mini{
     height: 100%;
@@ -104,12 +109,17 @@ header li{
     padding: 8px;
 }
 .litllebox p{
-    font-size: 18px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 5px  rgba(128, 128, 128, 0.178);
 }
 .litllebox #ps{
-    color: rgba(224, 183, 0, 0.596);
-    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px  rgba(126, 126, 126, 0.178);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .litllebox a{
     margin: auto;
