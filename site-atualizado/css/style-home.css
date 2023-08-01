@@ -63,7 +63,7 @@ header li{
     background-color: rgba(75, 75, 75, 0.568);
     margin: auto;
     max-width: 500px;
-    height: 800px;
+    min-height: 800px;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(0, 0, 0);
