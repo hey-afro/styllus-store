@@ -45,18 +45,16 @@ header li{
 
 /* parte informativa */
 
-.box{
-    min-height: 1300px;
-    max-height: 1750px;
-    padding: 0px 0px;
-    display: flex;
-    justify-content: center;
+.box{display: flex;
+    flex-flow: row wrap;
     align-content: center;
+    justify-content: center;
     background-image: url(../fotos/istockphoto-1320646994-612x612.jpg);
-    background-size: auto;
-    background-repeat: repeat ;
-    text-align: center;
-    background-position: center center ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    min-height: 80vh;
+    padding: 50px;
 }
 .litllebox{
     display: flex;
